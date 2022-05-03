@@ -1,0 +1,11 @@
+{
+  "name": "clase_4",
+  "version": "1.0.0",
+  "description": "Práctica de Calculadora",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Josue Martinez",
+  "license": "ISC"
+}
