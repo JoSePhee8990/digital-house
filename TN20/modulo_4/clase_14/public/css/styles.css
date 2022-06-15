@@ -1,0 +1,33 @@
+/*
+* {
+    margin: 0px;
+    padding: 0px;
+}
+*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+section {
+    background-color: #c3c3c3;
+}
+
+section.ultima-visita {
+    background-color: #696969;
+}
+
+.color-amarillo {
+    color: #f7d620;
+}
+
+h1,
+h2,
+h3,
+.color-amarillo {
+    text-decoration: underline;
+}
+
+.ultima-visita h4 {
+    color: green;
+}

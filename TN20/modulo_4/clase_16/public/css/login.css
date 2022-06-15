@@ -1,0 +1,44 @@
+.login {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.login form {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.login form .f-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0.5rem 0.25rem;
+    padding: 0.35rem 0.25rem;
+}
+
+.login form .f-row input {
+    width: 100%;
+    padding: 0.35rem 0.25rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    border: 1px solid #cecece;
+}
+
+.login form .f-row label {
+    margin-bottom: 0.5rem;
+}
+
+.login form .f-row .btn-enviar {
+    background-color: #2471e6;
+    border: 1px solid #0949aa;
+    color: #fefefe;
+}
+
+.login form .f-row .btn-enviar:hover {
+    background-color: #0022AA;
+}

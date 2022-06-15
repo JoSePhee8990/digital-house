@@ -1,0 +1,62 @@
+.formulario-regitro {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.formulario-regitro form {
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    width: 90%;
+}
+
+.formulario-regitro form .f-row {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 0.5rem 0.25rem;
+    padding: 0.35rem 0.25rem;
+}
+
+.formulario-regitro form .f-row input {
+    width: 100%;
+    padding: 0.35rem 0.25rem;
+    border-radius: 0.25rem;
+    margin-bottom: 0.25rem;
+    border: 1px solid #cecece;
+}
+
+.formulario-regitro form .f-row label {
+    margin-bottom: 0.5rem;
+    font-size: 0.77rem;
+    font-weight: bold;
+}
+
+.formulario-regitro form .f-radio {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 60%;
+}
+
+.formulario-regitro form .f-footer {
+    justify-content: flex-end;
+}
+
+.formulario-regitro form .f-footer button {
+    margin-left: 0.5rem;
+}
+
+.formulario-regitro form .f-row .btn-borrar {
+    background-color: rgb(249, 65, 65);
+    border: 1px solid red;
+    color: #fefefe;
+}
+
+.formulario-regitro form .f-row .btn-enviar {
+    background-color: #2471e6;
+    border: 1px solid #0949aa;
+    color: #fefefe;
+}

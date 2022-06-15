@@ -1,0 +1,215 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ececec;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #EAC926;
+    padding: 0.8rem;
+}
+
+header .header-top p {
+    margin-top: 1rem;
+}
+
+header nav {
+    display: none;
+    width: 100%;
+}
+
+nav {
+    color: #03264C;
+    margin-top: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+nav .menu-principal {
+    width: 60%;
+    display: flex;
+    gap: 1rem;
+}
+
+nav .menu-secundario {
+    width: 40%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main section {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+main section article {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.header-top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.logo, .busqueda {
+    width: 50%;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.product_img {
+    width: 100%;
+}
+
+.producto_descrip {
+    background-color: #ffffff;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    position: relative;
+}
+
+.producto_descrip p {
+    margin: 3px 0px 0px;
+}
+
+main section article i {
+    display: block;
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #FFF;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    color: #39b54a;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos,
+.descripciones {
+    font-size: 16px;
+}
+
+.descripciones {
+    display: none;
+}
+
+.descuentos {
+    color: #39b54a;
+}
+
+.burger-menu {
+    text-align: center;
+    padding-top: 1.5rem;
+}
+
+.burger-menu i {
+    font-size: 1rem;
+    background-color: #1259c3;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    border: 1px solid #03264C;
+    padding: 0.5rem;
+}
+
+footer article {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+footer i {
+    color: #1259c3;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+footer .copyright {
+    font-weight: bold;
+}
+
+/** Caja de Textos ........................... */
+
+
+/** Mensajes de Error ........................ */
+.error {
+    color: rgb(180, 0, 0);
+    background-color: rgb(255, 160, 160);
+    border: 1px solid red;
+    padding: 0.5rem 1rem;
+    font-size: 14px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+
+/** Tablets .................................. */
+@media (min-width: 361px) {
+    header nav {
+        display: block;
+    }
+
+    .descripciones {
+        display: block;
+    }
+
+    main section {
+        flex-direction: row;
+    }
+
+    main section article {
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
+        max-width: 40%;
+    }
+
+    header nav {
+        display: flex;
+    }
+
+    header .burger-menu {
+        display: none;
+    }
+}
+
+/** Desktop .................................. */
+@media (min-width: 769px) {
+    main section article {
+        max-width: 20%;
+    }
+}

@@ -1,0 +1,145 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    background-color: #ececec;
+    padding: 0px;
+    margin: 0px;
+}
+
+header {
+    background-color: #EAC926;
+    padding: 0.8rem;
+}
+
+nav {
+    color: #03264C;
+    padding-bottom: 1rem;
+}
+
+nav ul {
+    list-style-type: none;
+    padding-inline-start: 0px;
+}
+
+nav ul li a {
+    text-decoration: none;
+}
+
+main {
+    width: 90%;
+    margin: auto;
+}
+
+main article {
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+.banner img {
+    width: 100%;
+}
+
+.product_img {
+    width: 100%;
+}
+
+.producto_descrip {
+    background-color: #ffffff;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+}
+
+.producto_descrip .circle {
+    border: solid 1px #00a650;
+    border-radius: 50%;
+    width: 1.5rem;
+    padding: 0.7rem;
+}
+
+.circle i {
+    color: #00a650;
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.producto_descrip p {
+    margin: 3px 0px 0px;
+}
+
+.titulo {
+    font-size: 24px;
+}
+
+.precios {
+    font-size: 18px;
+}
+
+.descuentos, .descripciones {
+    font-size: 16px;
+}
+
+.descuentos {
+    color: #00a650;
+}
+
+.burger-menu {
+    text-align: center;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.burger-menu i {
+    font-size: 1rem;
+    background-color: #1259c3;
+    color: #ffffff;
+    border-radius: 0.2rem;
+    border: 1px solid #03264C;
+    padding: 0.5rem;
+}
+
+footer article {
+    text-align: center;
+    margin-top: 2.5rem;
+}
+
+footer i {
+    color: #1259c3;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+footer .copyright {
+    font-weight: bold;
+}
+
+/* --------------------------------------------------------------------------------------------- */
+/** Mobile ................................... */
+@media (max-width: 360px) {
+    header nav {
+        display: none;
+    }
+    .descripciones {
+        display: none;
+    }
+}
+
+/** Tablets .................................. */
+@media (min-width: 361px) {
+    main article {
+        box-shadow: 6px 6px 10px rgba(0, 0, 0, 0.15);
+    }
+    header nav {
+        display: block;
+    }
+
+    header .burger-menu {
+        display: none;
+    }
+}
+
+/** Desktop .................................. */
+@media (min-width: 769px) {
+    
+}
