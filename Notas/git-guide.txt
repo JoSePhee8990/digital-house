@@ -1,0 +1,33 @@
+1-El comando git branch permite ver las ramas creadas
+
+git branch
+
+
+2-Para crear una rama añadiremos al comando git branch el nombre de la rama
+
+git branch nombre-de-la-rama
+
+
+3-Para comprobar las ramas que tenemos creadas, podemos utilizar el siguiente comando:
+
+git branch --list
+
+
+4-Para eliminar una rama:
+
+git branch -d nombre-de-la-rama
+
+
+5-Para cambiar de rama:
+
+git checkout nombre-de-la-rama
+
+
+6-Atajo para crear y cambiar de rama:
+
+git checkout -b nombre-de-tu-rama
+
+
+7-Subir una rama al repositorio remoto de Github (o otro):
+
+git push -u origin nombre-de-tu-rama

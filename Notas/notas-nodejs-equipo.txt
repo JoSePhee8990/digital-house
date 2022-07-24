@@ -1,0 +1,82 @@
+5 de diciembre del 1963
+
+gvgmail order number: GS202203030937301708
+
+GVGMALLS:
+	CODE YANPOL: YPLW
+	
+DECLARANET
+
+/* --------------------------------------------------------------------------------------------- */
+
+Curso de Adminisión
+	Clases Virtuales --> Teoría y Práctica
+	
+	Clase en Vivo -> 29, 31 a las 05:00 a 07:30 pm
+	Exámen Martes 05 abril
+	
+Refuerzo de conocimientos
+	Clase en Vivo --> 07 de abril, 05:00 a 07:30 pm
+	Exámen Viernes 08 de abril
+	
+Aprender Haciendo
+	Clase virtual (Playground) -> Clase en vivo
+	
+Canal de Comunicación Slack
+
+Playground aplicación que se usa para el Curso.
+	
+/* --------------------------------------------------------------------------------------------- */
+
+let series = ['Friends', 'Mr. Robot', 'Breaking Bad'];
+
+module.exports = series;
+
+archivo.js
+
+const modulo = require('./series');
+
+/* --------------------------------------------------------------------------------------------- */
+
+npm init -> para crear el archivo package.json
+npm install -> crea el archivo package-lock.json donde se guardará las dependencias que se usaran
+	en nuestro proyecto.
+	
+// Grupo #5 
+shirly.battista.sb@gmail.com
+
+-- Email del grupo
+Grupo5.Apetitos@gmail.com
+pass: DHou2022
+
+* ems
+	font-size: 16px // default
+	1em = 16px		// normalmente
+	
+	Si el font-size toma otro valor como 20px el valor del "em" cambia:
+	1em = 2px
+	
+* flex
+display: flex;
+justify-content: center;
+align-items: center;
+
+https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+https://flexboxfroggy.com/#es
+
+WINKEY21 -> comprar OS u Office en win-keys.com
+
+linea punteada roja
+border: dotted 2px red;
+
+/** ---------------------------------------------------- */
+Subir repositorio, proyecto que ya esta en mi PC
+
+-> No subir a proyectos de git la carpeta node_modules/
+-> Crear archivo .gitignore para evitar que se suba al repositorio...
+	-> en Bash: $ touch .gitignore
+-> 
+
+/** ---------------------------------------------------- */
+https://www.freeimages.com/es
+https://unsplash.com/es
